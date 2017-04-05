@@ -1,5 +1,5 @@
 body {
-	background-color: #f8f8f8;
+	background-color: #e1e1e1;
 }
 
 .jumbotron {
@@ -10,3 +10,20 @@ section {
 	margin-top: 40px;
 }
 
+.myFooter {
+	background-color: #171d1f;
+	color: #c6c3b8;
+	font-size: 15px;
+}
+
+.navbar-default {
+	background-color: #e1e1e1;
+	border: none;
+	margin-bottom:0;
+}
+
+@media (max-width: 767px) {
+	.img-responsive {
+		max-width: 50%;
+	}
+}
