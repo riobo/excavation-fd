@@ -7,13 +7,34 @@ body {
 }
 
 section {
-	margin-top: 40px;
+	margin-top: 50px;
 }
 
 .myFooter {
 	background-color: #171d1f;
 	color: #c6c3b8;
 	font-size: 15px;
+	margin-top: 100px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #c6c3b8;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #c6c3b8;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:active {
+	text-decoration: none;
+	color: #c6c3b8;
 }
 
 .navbar-default {
@@ -26,4 +47,8 @@ section {
 	.img-responsive {
 		max-width: 50%;
 	}
+}
+
+.titre {
+	padding-bottom: 20px;
 }
